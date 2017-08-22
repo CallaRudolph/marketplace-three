@@ -6,7 +6,7 @@
     "jacob ruleaux <jakeruleaux@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/jakeruleaux/online-store",
   "ignore": [
     "**/.*",
     "node_modules",
