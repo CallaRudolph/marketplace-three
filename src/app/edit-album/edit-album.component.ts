@@ -16,9 +16,15 @@ export class EditAlbumComponent implements OnInit {
 
   ngOnInit() {
   }
-  
+
   beginUpdatingAlbum(albumToUpdate){
     this.albumService.updateAlbum(albumToUpdate);
+  }
+
+  beginDeletingAlbum(albumToDelete) {
+    if(confirm("Are you sure you want to delete this album from the inventory?")) {
+      this.albumService.deleteAlbum(albumToDelete);
+    }
   }
 
 }
